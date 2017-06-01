@@ -1,0 +1,80 @@
+[
+  {
+    "label": "First name",
+    "name": "first_name",
+    "value": null,
+    "component": "string",
+    "col": 6
+  },
+  {
+    "label": "Last name",
+    "name": "last_name",
+    "value": null,
+    "component": "string",
+    "col": 6
+  },
+  {
+    "label": "Email",
+    "name": "email",
+    "value": null,
+    "component": "email",
+    "col": 6
+  },
+  {
+    "label": "Gender",
+    "name": "gender",
+    "value": null,
+    "component": "radio",
+    "options": [
+      {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      }
+    ],
+    "col": 6
+  },
+  {
+    "label": "Source of attention",
+    "name": "source_of_attention",
+    "value": null,
+    "options": [
+      {
+        "tv": "TV",
+        "social_network": "Social Network",
+        "friend": "Friend",
+        "other": "Other"
+      }
+    ],
+    "component": "select",
+    "col": 6
+  },
+  {
+    "label": "Phone",
+    "name": "phone",
+    "value": {
+      "ext": null,
+      "phone": null
+    },
+    "options": [
+      {
+        "ext": [
+          {
+            "bosnia": "+387",
+            "sebia": "+381",
+            "croatia": "+386"
+          }
+        ],
+      }
+    ],
+    "component": "phone",
+    "col": 6
+  },
+  {
+    "label": "Vouchers",
+    "name": "vouchers",
+    "value": [],
+    "component": "multi_string",
+    "col": 6
+  }
+]
