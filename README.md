@@ -39,6 +39,11 @@ MultiString component is using n String components, with minimum of one. Return 
 ```
 This component must have option of adding/removing rows (array members).
 
+### Form renderer
+You should make form renderer component which incorporates every component mentoned above, using sample.json
+#### Protip
+JSON can change, so don't try to hardcode components :)
+
 ## Anything else?
 
 There should be printout of JSON object used for generating form.
@@ -71,3 +76,7 @@ Printout this object as well.
  * value - current value of component
  * component - type of component
  * col - bootstrap column with, ignored on mobile devices as it should use 12
+ 
+ ## Appendix B
+ 
+ Anything that is left unspecified, can be specified by challenger himself :)
