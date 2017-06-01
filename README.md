@@ -39,4 +39,35 @@ MultiString component is using n String components, with minimum of one. Return 
 ```
 This component must have option of adding/removing rows (array members).
 
+## Anything else?
 
+There should be printout of JSON object used for generating form.
+You need to place submit button at bottom of the form, which generates object used for sending data to server.
+It must be in format 
+```json
+{
+  "key": "value"
+}
+```
+
+Look in request.json for example.
+
+Printout this object as well.
+
+## Appendix A
+### Explanation of one object of sample.js
+```json
+{
+    "label": "Last name",
+    "name": "last_name",
+    "value": null,
+    "component": "string",
+    "col": 6
+}
+```
+ 
+ * label - components label
+ * name - name of form, unique in every form, used for sending data to server in key-value format
+ * value - current value of component
+ * component - type of component
+ * col - bootstrap column with, ignored on mobile devices as it should use 12
