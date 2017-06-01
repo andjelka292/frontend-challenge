@@ -1,0 +1,16 @@
+{
+  "first_name": "John",
+  "last_name": "Smith",
+  "email": "john@smith.com",
+  "gender": "male",
+  "source_of_attention": "tv",
+  "phone": {
+    "ext": "croatia",
+    "phone": "6688332211"
+  },
+  "vouchers": [
+    "oiasdfhudf",
+    "nusjsgnids",
+    "kiju3uijkk"
+  ]
+}
